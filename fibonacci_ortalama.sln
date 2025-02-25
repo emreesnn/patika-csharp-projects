@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fibonacci_ortalama", "fibonacci_ortalama\fibonacci_ortalama.csproj", "{C9CA3A98-23AC-4947-AFD4-923E2F541DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9CA3A98-23AC-4947-AFD4-923E2F541DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CA3A98-23AC-4947-AFD4-923E2F541DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CA3A98-23AC-4947-AFD4-923E2F541DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CA3A98-23AC-4947-AFD4-923E2F541DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B48A737-2AB8-4653-871B-EC1F6066F02A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+# Visual Studio Binary ve Derleme Dosyalarý
+bin/
+obj/
+.vs/
+
+# Kullanýcý ve IDE Ayarlarý
+*.user
+*.suo
+*.csproj.user
+*.cache
+*.log
+*.tmp
+*.db
+
+# Temporary ve Geçici Dosyalar
+Thumbs.db
