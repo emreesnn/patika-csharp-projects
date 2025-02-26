@@ -6,14 +6,12 @@ class ATM
 {
     static Dictionary<string, string> users = new Dictionary<string, string>()
     {
-        {"ahmet", "1234"},
-        {"ayse", "5678"}
+        {"emre", "1234"},
     };
 
     static Dictionary<string, double> balances = new Dictionary<string, double>()
     {
         {"ahmet", 1000},
-        {"ayse", 2000}
     };
 
     static List<string> transactionLogs = new List<string>();
@@ -21,7 +19,6 @@ class ATM
 
     static void Main()
     {
-        Console.WriteLine("=== ATM Uygulamasına Hoş Geldiniz ===");
 
         if (!Login())
         {
@@ -55,7 +52,7 @@ class ATM
                     EndOfDayReport();
                     break;
                 case "5":
-                    Console.WriteLine("Çıkış yapıldı. İyi günler!");
+                    Console.WriteLine("Çıkış yapıldı.");
                     return;
                 default:
                     Console.WriteLine("Geçersiz seçim! Tekrar deneyin.");
@@ -75,7 +72,7 @@ class ATM
         if (users.ContainsKey(username) && users[username] == password)
         {
             currentUser = username;
-            Console.WriteLine($"Giriş başarılı! Hoş geldiniz, {username}");
+            Console.WriteLine($"Giriş başarılı! {username}");
             transactionLogs.Add($"{DateTime.Now}: {username} giriş yaptı.");
             return true;
         }
